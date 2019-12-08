@@ -1,8 +1,8 @@
 # Telelyrics - Gets the lyrics of the song you're playing in Spotify
-Telegram bot written in python using [the python-telegram-bot library](https://github.com/python-telegram-bot/python-telegram-bot). It uses [spotipy, a lightweight Python library for the Spotify Web API](https://github.com/plamere/spotipy), to obtain the currently playing song in your account and performs a search in [the Genius API](http://genius.com/api-clients), with [the lyricsgenius pachage](https://github.com/johnwmillr/LyricsGenius/blob/master/README.md), to get the lyrics.
+Telegram bot written in python using the [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) library. It uses [spotipy](https://github.com/plamere/spotipy), a lightweight Python library for the Spotify Web API, to obtain the currently playing song in your account and performs a search in [the Genius API](http://genius.com/api-clients), with the [lyricsgenius](https://github.com/johnwmillr/LyricsGenius/blob/master/README.md) pachage, to get the lyrics.
 
 ## Setup
-You will need a (free) account that authorizes access to [the Genius API](http://genius.com/api-clients). More info on [the lyricsgenius github.](https://github.com/johnwmillr/LyricsGenius#setup)
+You will need a (free) account that authorizes access to [the Genius API](http://genius.com/api-clients). More info on [the lyricsgenius repository.](https://github.com/johnwmillr/LyricsGenius#setup)
 You will also need a Telegram Bot token and Spotify API credentials. 
 You can get your credentials at https://developer.spotify.com/my-applications and set them by setting environment variables:
 ```
